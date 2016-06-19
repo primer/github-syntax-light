@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "name": "github-syntax-light",
+  "description": "The CSS syntax theme for GitHub",
+  "homepage": "https://github.com/primer/github-syntax-light#readme",
+  "style": "index.css",
+  "main": "index.js",
+  "author": "GitHub Inc.",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "index.css",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/primer/github-syntax-light.git"
+  },
+  "bugs": {
+    "url": "https://github.com/primer/github-syntax-theme-generator/issues"
+  },
+  "scripts": {
+    "update": "cp node_modules/github-syntax-theme-generator/build/css/github-light.* lib/.",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "syntax",
+    "css",
+    "theme",
+    "highlight",
+    "code"
+  ],
+  "devDependencies": {
+    "github-syntax-theme-generator": "^0.1.0"
+  }
+}
