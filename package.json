@@ -3,13 +3,12 @@
   "name": "github-syntax-light",
   "description": "The CSS syntax theme for GitHub",
   "homepage": "https://github.com/primer/github-syntax-light#readme",
-  "style": "index.css",
+  "style": "lib/github-light.css",
   "main": "index.js",
   "author": "GitHub Inc.",
   "license": "MIT",
   "files": [
     "index.js",
-    "index.css",
     "lib"
   ],
   "repository": {
