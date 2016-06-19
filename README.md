@@ -17,7 +17,7 @@ $ npm install --save github-syntax-light
 Somewhere in your styles import the syntax theme like this.
 
 ```css
-@import "github-syntax-light/index.css";
+@import "github-syntax-light/lib/github-light.css";
 ```
 
 ## Build
