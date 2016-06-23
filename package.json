@@ -20,7 +20,7 @@
   },
   "scripts": {
     "_version": "npm version $(npm view github-syntax-theme-generator version)",
-    "_update": "cp node_modules/github-syntax-theme-generator/build/css/github-light.* lib/.",
+    "_update": "npm update && cp node_modules/github-syntax-theme-generator/build/css/github-light.* lib/.",
     "ship": "npm run _update && npm run _version && git push && git push --tags && npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
