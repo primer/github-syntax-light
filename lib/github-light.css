@@ -1,5 +1,5 @@
 /*!
- * GitHub Light v0.2.0
+ * GitHub Light v0.3.0
  * Copyright (c) 2012 - 2016 GitHub, Inc.
  * Licensed under MIT (https://github.com/primer/github-syntax-theme-generator/blob/master/LICENSE)
  */
@@ -53,6 +53,15 @@
 .pl-ii /* invalid.illegal */ {
   color: #f8f8f8;
   background-color: #b52a1d;
+}
+
+.pl-c2 /* carriage-return */ {
+  color: #f8f8f8;
+  background-color: #b52a1d;
+}
+
+.pl-c2::before /* carriage-return */ {
+  content: "^M";
 }
 
 .pl-sr .pl-cce /* string.regexp constant.character.escape */ {
