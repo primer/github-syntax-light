@@ -1,34 +1,34 @@
 /*!
- * GitHub Light v0.3.2
- * Copyright (c) 2012 - 2016 GitHub, Inc.
+ * GitHub Light v0.4.1
+ * Copyright (c) 2012 - 2017 GitHub, Inc.
  * Licensed under MIT (https://github.com/primer/github-syntax-theme-generator/blob/master/LICENSE)
  */
 
 .pl-c /* comment, punctuation.definition.comment, string.comment */ {
-  color: #969896;
+  color: #6a737d;
 }
 
-.pl-c1 /* constant, entity.name.constant, variable.other.constant, variable.language, support, meta.property-name, support.constant, support.variable, meta.module-reference, markup.raw, meta.diff.header */,
+.pl-c1 /* constant, entity.name.constant, variable.other.constant, variable.language, support, meta.property-name, support.constant, support.variable, meta.module-reference, markup.raw, meta.diff.header, meta.output */,
 .pl-s .pl-v /* string variable */ {
-  color: #0086b3;
+  color: #005cc5;
 }
 
 .pl-e /* entity */,
 .pl-en /* entity.name */ {
-  color: #795da3;
+  color: #6f42c1;
 }
 
 .pl-smi /* variable.parameter.function, storage.modifier.package, storage.modifier.import, storage.type.java, variable.other */,
 .pl-s .pl-s1 /* string source */ {
-  color: #333;
+  color: #24292e;
 }
 
-.pl-ent /* entity.name.tag */ {
-  color: #63a35c;
+.pl-ent /* entity.name.tag, markup.quote */ {
+  color: #22863a;
 }
 
 .pl-k /* keyword, storage, storage.type */ {
-  color: #a71d5d;
+  color: #d73a49;
 }
 
 .pl-s /* string */,
@@ -38,26 +38,26 @@
 .pl-sr .pl-cce /* string.regexp constant.character.escape */,
 .pl-sr .pl-sre /* string.regexp source.ruby.embedded */,
 .pl-sr .pl-sra /* string.regexp string.regexp.arbitrary-repitition */ {
-  color: #183691;
+  color: #032f62;
 }
 
 .pl-v /* variable */,
 .pl-smw /* sublimelinter.mark.warning */ {
-  color: #ed6a43;
+  color: #e36209;
 }
 
 .pl-bu /* invalid.broken, invalid.deprecated, invalid.unimplemented, message.error, brackethighlighter.unmatched, sublimelinter.mark.error */ {
-  color: #b52a1d;
+  color: #b31d28;
 }
 
 .pl-ii /* invalid.illegal */ {
-  color: #f8f8f8;
-  background-color: #b52a1d;
+  color: #fafbfc;
+  background-color: #b31d28;
 }
 
 .pl-c2 /* carriage-return */ {
-  color: #f8f8f8;
-  background-color: #b52a1d;
+  color: #fafbfc;
+  background-color: #d73a49;
 }
 
 .pl-c2::before /* carriage-return */ {
@@ -66,73 +66,65 @@
 
 .pl-sr .pl-cce /* string.regexp constant.character.escape */ {
   font-weight: bold;
-  color: #63a35c;
+  color: #22863a;
 }
 
 .pl-ml /* markup.list */ {
-  color: #693a17;
+  color: #735c0f;
 }
 
 .pl-mh /* markup.heading */,
 .pl-mh .pl-en /* markup.heading entity.name */,
 .pl-ms /* meta.separator */ {
   font-weight: bold;
-  color: #1d3e81;
-}
-
-.pl-mq /* markup.quote */ {
-  color: #008080;
+  color: #005cc5;
 }
 
 .pl-mi /* markup.italic */ {
   font-style: italic;
-  color: #333;
+  color: #24292e;
 }
 
 .pl-mb /* markup.bold */ {
   font-weight: bold;
-  color: #333;
+  color: #24292e;
 }
 
 .pl-md /* markup.deleted, meta.diff.header.from-file, punctuation.definition.deleted */ {
-  color: #bd2c00;
-  background-color: #ffecec;
+  color: #b31d28;
+  background-color: #ffeef0;
 }
 
 .pl-mi1 /* markup.inserted, meta.diff.header.to-file, punctuation.definition.inserted */ {
-  color: #55a532;
-  background-color: #eaffea;
+  color: #22863a;
+  background-color: #f0fff4;
 }
 
 .pl-mc /* markup.changed, punctuation.definition.changed */ {
-  color: #ef9700;
-  background-color: #ffe3b4;
+  color: #e36209;
+  background-color: #ffebda;
 }
 
 .pl-mi2 /* markup.ignored, markup.untracked */ {
-  color: #d8d8d8;
-  background-color: #808080;
+  color: #f6f8fa;
+  background-color: #005cc5;
 }
 
 .pl-mdr /* meta.diff.range */ {
   font-weight: bold;
-  color: #795da3;
-}
-
-.pl-mo /* meta.output */ {
-  color: #1d3e81;
+  color: #6f42c1;
 }
 
 .pl-ba /* brackethighlighter.tag, brackethighlighter.curly, brackethighlighter.round, brackethighlighter.square, brackethighlighter.angle, brackethighlighter.quote */ {
-  color: #595e62;
+  color: #586069;
 }
 
 .pl-sg /* sublimelinter.gutter-mark */ {
-  color: #c0c0c0;
+  color: #959da5;
 }
 
 .pl-corl /* constant.other.reference.link, string.other.link */ {
   text-decoration: underline;
-  color: #183691;
+  color: #032f62;
 }
 
